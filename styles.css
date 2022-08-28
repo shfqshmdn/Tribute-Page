@@ -3,10 +3,11 @@
 body {
   margin: 0;
   justify-content: center;
+  letter-spacing: 1.6px
 }
 
 #main {
-  margin: 30px 8px;
+  margin: 0;
   padding: 15px;
   border-radius: 5px;
   background: #eee;
@@ -67,6 +68,11 @@ a:link {
 
 a:hover {
   text-decoration: underline;
+}
+.text-intro {
+  width: auto;
+  font-style: italic;
+
 }
 
 .text-main {
